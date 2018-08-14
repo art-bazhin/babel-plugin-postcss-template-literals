@@ -4,7 +4,8 @@
   "description": "Process tagged template literals with PostCSS",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "cp -R src/ lib/"
   },
   "keywords": [
     "babel-plugin",
