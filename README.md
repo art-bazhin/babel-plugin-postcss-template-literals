@@ -3,7 +3,7 @@
 [![build status][build-badge]][build-href]
 [![dependencies status][deps-badge]][deps-href]
 
-Babel plugin for running [PostCSS](https://github.com/postcss/postcss) on tagged template literals at build time. Based on [babel-plugin-csjs-postcss](babel-plugin-csjs-postcss) by [Ryan Tsao](https://github.com/rtsao)
+Babel plugin for running [PostCSS](https://github.com/postcss/postcss) on tagged template literals at build time. Based on [babel-plugin-csjs-postcss](babel-plugin-csjs-postcss) by [Ryan Tsao](https://github.com/rtsao).
 
 ## Plugin Options
 

@@ -18,7 +18,7 @@ module.exports = function({ types: t }) {
         );
 
         if (path.node.tag.name !== opts.tag) return;
-        if (opts.replace || opts.replace === '') {
+        if (opts.replace) {
           path.node.tag.name = opts.replace;
         }
 
@@ -41,6 +41,12 @@ module.exports = function({ types: t }) {
 
         path.node.quasi.quasis = quasisAst;
         path.node.quasi.expressions = exprsAst;
+
+        if (opts.replace === '') {
+          path.replaceWith(
+            t.TemplateLiteral(quasisAst, exprsAst)
+          );
+        }
       }
     }
   };
