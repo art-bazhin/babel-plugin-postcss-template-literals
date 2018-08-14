@@ -2,7 +2,7 @@
   "name": "babel-plugin-postcss-template-literals",
   "version": "1.0.0-alpha",
   "description": "Process tagged template literals with PostCSS",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest"
   },
