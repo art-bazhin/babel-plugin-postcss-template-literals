@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 const transform = require('@babel/core').transformSync;
 
-const PLUGIN_PATH = path.resolve(__dirname, '../src');
+const PLUGIN_PATH = path.resolve(__dirname, '../');
 const FIXTURES_PATH = path.resolve(__dirname, 'fixtures');
 const READ_OPTS = {
   encoding: 'utf-8'
