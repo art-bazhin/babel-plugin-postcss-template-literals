@@ -92,6 +92,6 @@ newCssTag`
 
 
 [build-badge]: https://api.travis-ci.org/art-bazhin/babel-plugin-postcss-template-literals.svg?branch=master
-[build-href]: https://api.travis-ci.org/art-bazhin/babel-plugin-postcss-template-literals
+[build-href]: https://travis-ci.org/art-bazhin/babel-plugin-postcss-template-literals
 [deps-badge]: https://david-dm.org/art-bazhin/babel-plugin-postcss-template-literals.svg
 [deps-href]: https://david-dm.org/art-bazhin/babel-plugin-postcss-template-literals
