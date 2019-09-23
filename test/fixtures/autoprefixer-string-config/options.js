@@ -3,7 +3,7 @@ module.exports = {
     [
       'autoprefixer',
       {
-        browsers: ['chrome >= 1']
+        overrideBrowserslist: ['chrome >= 1']
       }
     ]
   ]

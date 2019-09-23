@@ -5,7 +5,7 @@ module.exports = {
   replace: '',
   plugins: [
     autoprefixer({
-      browsers: ['chrome >= 1']
+      overrideBrowserslist: ['chrome >= 1']
     })
   ]
 };
