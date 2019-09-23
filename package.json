@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-postcss-template-literals",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "Babel plugin for running PostCSS on tagged template literals at build time.",
   "main": "index.js",
   "homepage": "https://github.com/art-bazhin/babel-plugin-postcss-template-literals",
